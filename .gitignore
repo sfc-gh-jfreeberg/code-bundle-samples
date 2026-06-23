@@ -1,0 +1,9 @@
+scripts/
+.snowflake/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.snowflake/
+.venv/
+*.pyc

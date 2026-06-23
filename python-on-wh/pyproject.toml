@@ -1,0 +1,8 @@
+[project]
+name = "python-on-wh"
+version = "0.1.0"
+description = "Snowpark sales aggregation — Code Bundle sample (warehouse compute)"
+requires-python = ">=3.11"
+dependencies = [
+    "snowflake-snowpark-python",
+]

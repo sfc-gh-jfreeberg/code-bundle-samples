@@ -1,0 +1,20 @@
+bundle:
+  type: custom
+  compute_type: warehouse
+  language: python
+
+  compute_options:
+    warehouse: SNOWFLAKE_LEARNING_WH
+    runtime_version: 3.11
+
+  properties:
+    requirements_file: pyproject.toml
+
+  env_vars:
+    - API_URL: https://pokeapi.co/
+  
+  secrets:
+    - POKEMON_API_KEY
+    
+  external_access_integrations:
+    - POKEAPI_ACCESS_INTEGRATION
