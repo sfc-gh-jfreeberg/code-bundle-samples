@@ -4,7 +4,6 @@ bundle:
   language: python
 
   compute_options:
-    warehouse: SNOWFLAKE_LEARNING_WH
     runtime_version: 3.11
 
   properties:
